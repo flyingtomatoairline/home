@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>flying tomato airlines" CityU Hong Kong CS3382 - Booking</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">  
+	<link href="css/flexslider.css" rel="stylesheet">
+	<link href="css/templatemo-style.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+	<!-- Header -->
+	<div class="tm-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
+					<img src="img/logo.png" alt="Image" />
+  					<a href="#" class="col-lg-6 col-md-4 col-sm-3 tm-site-name">Tomato Airline</a>	
+				</div>
+				<div class="col-lg-6 col-md-8 col-sm-9">
+					<div class="mobile-menu-icon">
+						<i class="fa fa-bars"></i>
+					</div>
+					<nav class="tm-nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="membership.html">Membership</a></li>
+							<li><a href="tours.html">Our Tours</a></li>
+							<li><a href="aboutus.html">About Us</a></li>
+						</ul>
+					</nav>		
+				</div>				
+			</div>
+		</div>	  	
+	</div>
+
+	<!-- Banner -->
+	<section class="tm-banner">
+		<!-- Flexslider -->
+		<div class="flexslider flexslider-banner">
+		  <ul class="slides">
+		    <li>
+			    <div class="tm-banner-inner">
+					<h1 class="tm-banner-title">Your <span class="tm-yellow-text">Special</span> Tour</h1>
+					<p class="tm-banner-subtitle">For Upcoming Holidays</p>
+					<a href="#more" class="tm-banner-link">Contact Us</a>	
+				</div>
+				<img src="img/banner-1.jpg" alt="Banner 1" />	
+		    </li>		    
+		  </ul>
+		</div>	
+	</section>
+
+
+	
+	<!-- white bg -->
+	<section class="section-padding-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="tm-section-header section-margin-top">
+					<div class="col-lg-4 col-md-3 col-sm-3"><hr></div>
+					<div class="col-lg-4 col-md-6 col-sm-6"><h2 class="tm-section-title">BKK to HKG</h2></div>
+					<div class="col-lg-4 col-md-3 col-sm-3"><hr></div>	
+				</div>				
+			</div>
+			<div class="row">
+			</div>			
+		</div>
+
+	</section>
+
+	
+
+<section class="container tm-home-section-1" id="more">
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<div class="flight-box">
+Flight code: TM 435<br/>Departure time: 12:00<br/>Estimate arrival time: 14:00 <br/>Price: $1400<br/><br/>
+ <a href="finalstep.html" class="btn btn-danger" role="button">Select</a>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+ <div class="flight-box">
+Flight code: TM 446<br/>Departure time: 16:00<br/>Estimate arrival time: 18:00 <br/>Price: $1100<br/><br/>
+ <a href="finalstep.html" class="btn btn-danger" role="button">Select</a>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<div class="flight-box">
+Flight code: TM 468<br/>Departure time: 18:00<br/>Estimate arrival time: 20:00 <br/>Price: $1300<br/><br/>
+
+  <a href="finalstep.html" class="btn btn-danger" role="button">Select</a>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<div class="flight-box">
+Flight code: TM 479<br/>Departure time: 22:00<br/>Estimate arrival time: 00:00 <br/>Price: $1000<br/><br/>
+ <a href="finalstep.html" class="btn btn-danger" role="button">Select</a>
+
+</div>
+</div>		
+</section>
+
+
+
+
+<section class="container tm-home-section-1" id="more">
+<div class="container">
+    <div class="row"></div>
+    <div class="row">
+        <div class="col-sm-6"></div>
+        <div class="col-sm-6"></div>
+    </div>
+</div>
+</section>
+
+	
+	
+	
+	
+	<footer class="tm-black-bg">
+		<div class="container">
+			<div class="row">
+				<p class="home-description">This is not a real website.This was designed as part of a school project on web design and usability.</p>
+			</div>
+		</div>		
+	</footer>
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      		<!-- jQuery -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>					<!-- bootstrap js -->
+	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>			<!-- flexslider js -->
+	<script type="text/javascript" src="js/templatemo-script.js"></script>      		<!-- Templatemo Script -->
+	<script>
+		
+	
+      	// DOM is ready
+		$(function() {
+
+			// https://css-tricks.com/snippets/jquery/smooth-scrolling/
+			$('a[href*=#]:not([href=#])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+					if (target.length) {
+						$('html,body').animate({
+							scrollTop: target.offset().top
+						}, 1000);
+						return false;
+					}
+				}
+			});
+
+		  	// Flexslider
+		  	$('.flexslider').flexslider({
+		  		controlNav: false,
+		  		directionNav: false
+		  	});
+
+		  	// Google Map
+		  	loadGoogleMap();
+		  });
+	</script>
+</body>
+</html>
